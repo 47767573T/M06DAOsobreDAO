@@ -10,5 +10,6 @@
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="library" name="commons-io-2.4" level="project" />
     <orderEntry type="library" name="exist-xqj-1.0.1" level="project" />
+    <orderEntry type="library" name="jaxb-api" level="project" />
   </component>
 </module>

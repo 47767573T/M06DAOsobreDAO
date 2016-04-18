@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<empresa>
+    <empleats>
+        <empleat>
+            <id></id>
+            <nom></nom>
+            <cognom></cognom>
+            <anys_treball></anys_treball>
+            <sou></sou>
+        </empleat>
+    </empleats>
+    <clients>
+        <client>
+            <nif></nif>
+            <nom></nom>
+            <cognom></cognom>
+        </client>
+    </clients>
+    <cataleg>
+        <producte>
+            <id></id>
+            <nom></nom>
+            <preu></preu>
+            <stock></stock>
+        </producte>
+    </cataleg>
+    <factures>
+        <factura>
+            <client_nif></client_nif>
+            <id_producte></id_producte>
+            <preu_unitat></preu_unitat>
+            <preu_total></preu_total>
+            <iva></iva>
+        </factura>
+    </factures>    
+</empresa>

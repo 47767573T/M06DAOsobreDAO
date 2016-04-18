@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="empresa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="empleats">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="empleat">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="id"/>
+                    <xs:element type="xs:string" name="nom"/>
+                    <xs:element type="xs:string" name="cognom"/>
+                    <xs:element type="xs:string" name="anys_treball"/>
+                    <xs:element type="xs:string" name="sou"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="clients">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="client">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nif"/>
+                    <xs:element type="xs:string" name="nom"/>
+                    <xs:element type="xs:string" name="cognom"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cataleg">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="producte">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="id"/>
+                    <xs:element type="xs:string" name="nom"/>
+                    <xs:element type="xs:string" name="preu"/>
+                    <xs:element type="xs:string" name="stock"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="factures">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="factura">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="client_nif"/>
+                    <xs:element type="xs:string" name="id_producte"/>
+                    <xs:element type="xs:string" name="preu_unitat"/>
+                    <xs:element type="xs:string" name="preu_total"/>
+                    <xs:element type="xs:string" name="iva"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
